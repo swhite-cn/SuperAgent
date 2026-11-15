@@ -1,0 +1,23 @@
+# 依赖与构建产物（子目录各自安装，不随源码入库）
+node_modules/
+dist/
+build/*
+!build/icon.icns
+!build/icon.png
+!build/icon-1024.png
+!build/entitlements.mac.plist
+!build/banner*.png
+
+# 本地运行时数据（收藏、最近记录、快照）
+.fanbox/
+
+# 验证脚本的截图产物（可复跑重生成）
+experiments/*/shots/
+tests/artifacts/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
